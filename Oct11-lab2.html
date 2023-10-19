@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <header class="head">
+        <h1 class="head">Explore the World of Chess!!!!</h1>
+        <img width="400" height="100" src="https://images.unsplash.com/photo-1529699211952-734e80c4d42b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2hlc3N8ZW58MHx8MHx8fDA%3D&w=1000&q=80">
+        <nav>
+            <a href="#learn">Learn Chess</a>  |  
+            <a href="#play">Play Chess</a>  |  
+            <a href="#rank">Chess Player Ranking</a>  |  
+            <a href="#board">Chess Board</a>
+        </nav>
+    </header>
+
+    <section id="learn">
+        <h2>Learn Chess</h2>
+        <p>Discover the rules and fundamentals of chess!!</p>
+        <h3>Basic Chess Moves</h3>
+        <a>Master the essential chess moves and tactics</a>
+
+    </section>
+
+    <section id="play">
+        <h2>Play Chess</h2>
+        <ul>
+            <li>Play chess online with others</li>
+            <li>Play chess online with computer</li>
+            <li>Play chess with partner</li>
+        </ul><br>
+        <h4>Watch Below video......</Video></h4>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OCSbzArwB10?si=23dHGQmVvE66NyIX" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        </iframe>
+
+    </section>
+    
+    <section id="rank">
+        <h2>Chess Player Ranking</h2>
+        <h4>Top 3 players:</h4>
+        <img width="100" height="100" src="https://cdn.pixabay.com/photo/2016/06/28/01/42/chess-1483735_640.jpg"><br><br>
+        <table>
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Player</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Magnus Carlsen</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Fabiano Caruana</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Viswanathan Anand</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section><br><br>
+
+    <section class="board">
+        <h2>Chess Board:</h2>
+        <table border="1">
+            <tbody>
+                <tr>
+                    <td style="width: 50px; height: 50px; background-color: black;"></td>
+                    <td style="width: 50px; height: 50px; background-color: white;"></td>
+                    <td style="width: 50px; height: 50px; background-color: black;"></td>
+                    <td style="width: 50px; height: 50px; background-color: white;"></td>
+                    <td style="width: 50px; height: 50px; background-color: black;"></td>
+                    <td style="width: 50px; height: 50px; background-color: white;"></td>
+                    <td style="width: 50px; height: 50px; background-color: black;"></td>
+                    <td style="width: 50px; height: 50px; background-color: white;"></td>
+                </tr>
+                <tr>
+                    <td style="width: 50px; height: 50px; background-color: white;"></td>
+                    <td style="width: 50px; height: 50px; background-color: black;"></td>
+                    <td style="width: 50px; height: 50px; background-color: white;"></td>
+                    <td style="width: 50px; height: 50px; background-color: black;"></td>
+                    <td style="width: 50px; height: 50px; background-color: white;"></td>
+                    <td style="width: 50px; height: 50px; background-color: black;"></td>
+                    <td style="width: 50px; height: 50px; background-color: white;"></td>
+                    <td style="width: 50px; height: 50px; background-color: black;"></td>
+
+                </tr>
+
+            </tbody> 
+        </table>
+
+        <h4>Top Three Chess Pieces: </h4>
+        <ul class="pic-list">
+            <li>
+                <p>King</p>
+                <img width="100" height="100" src="./img/king.jpeg">
+            </li>
+            <li>
+                <p>Queen</p>
+                <img width="100" height="100" src="./img/Queen.jpeg">
+            </li>
+            <li>
+                <p>Knight</p>
+                <img width="110" height="110" src="./img/knight.jpeg">
+            </li>
+        </ul>
+
+    </section><br><br>
+
+    <form action="#" method="post">
+        <h2>Register form: </h2>
+
+        <!-- Email Input -->
+        <label for="email-input">Email:</label>
+        <input id="email-input" aria-placeholder="exm@exm.com" required><br><br>
+        <!-- Number Input -->
+        <label for="number-input">Age:</label>
+        <input type="number" id="number-input" min="1" max="100" required><br><br>
+        <!-- Radio button -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br><br>
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+
+    </form>
+
+
+</body>
+</html>
